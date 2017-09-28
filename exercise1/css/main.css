@@ -1,0 +1,28 @@
+/* Common definitions */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: darkcyan;
+    height: 100px;
+}
+.main-content{
+    display: flex;
+}
+nav{
+    background-color: mediumslateblue;
+    width: 30%;
+    float: left;
+    height: 50vh;
+}
+main{
+    background-color: burlywood;
+    width: 70%;
+    float: left;
+}
+footer{
+    background-color: darkorange;
+    height: 50px;
+}
